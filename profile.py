@@ -158,7 +158,7 @@ for i in range(parameters.nodeCount):
     else:
         worker_node_name = "worker" + str(i)
         worker_node = request.RawPC(worker_node_name)
-        worker_node.addService(protogeni.Execute(shell="sh", command="/local/repository/setup.sh"))
+        worker_node.addService(protogeni.Execute(shell="sh", command="/local/repository/scripts/setup.sh"))
     if parameters.osImage and parameters.osImage != "default":
         worker_node.disk_image = parameters.osImage
     
