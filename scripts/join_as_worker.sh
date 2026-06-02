@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 MASTER=master
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-if ! ./is_master.sh; then
+if ! "$SCRIPT_DIR/is_master.sh"; then
 	until ssh -o StrictHostKeyChecking=no $MASTER "kubectl get nodes >/dev/null 2>&1"; do
 		sleep 5
 	done

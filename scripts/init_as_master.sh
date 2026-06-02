@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
 MASTER=master
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-if ./is_master.sh; then
+if "$SCRIPT_DIR/is_master.sh"; then
     sudo kubeadm init --pod-network-cidr=10.10.0.0/16
 
     mkdir -p $HOME/.kube
