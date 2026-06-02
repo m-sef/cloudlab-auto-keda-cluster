@@ -3,7 +3,7 @@
 # Author(s): m_sef (https://github.com/m-sef)
 
 sudo apt-get update -y
-sudo apt-get install -y docker.io cpufrequtils
+sudo apt-get install -y docker.io cpufrequtils conntrack
 
 # The default behavior of a kubelet is to fail to start if swap memory is detected on a node. 
 # This means that swap should either be disabled or tolerated by kubelet.
