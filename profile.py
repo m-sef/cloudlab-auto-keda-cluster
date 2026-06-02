@@ -144,6 +144,7 @@ if parameters.nodeCount > 1:
         local_area_network.best_effort = True
     elif parameters.linkSpeed > 0:
         local_area_network.bandwidth = parameters.linkSpeed
+    
     if parameters.sameSwitch:
         local_area_network.setNoInterSwitchLinks()
 
@@ -190,12 +191,12 @@ for i in range(parameters.nodeCount):
         worker_node.startVNC()
 
 # Create client node
-client_node = request.RawPC("client")
-client_node.hardware_type = "c220g2"
-client_node.disk_image = parameters.osImage
-client_node.addService(protogeni.Execute(shell="sh", command="/local/repository/scripts/setup.sh"))
-client_node_interface = client_node.addInterface("eth1")
-local_area_network.addInterface(client_node_interface)
+master_node = request.RawPC("master")
+master_node.hardware_type = "c220g2"
+master_node.disk_image = parameters.osImage
+master_node.addService(protogeni.Execute(shell="sh", command="/local/repository/scripts/setup.sh"))
+master_node_interface = master_node.addInterface("eth1")
+local_area_network.addInterface(master_node_interface)
 
 # Print the RSpec to the enclosing page.
 portal_context.printRequestRSpec(request)
