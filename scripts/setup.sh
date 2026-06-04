@@ -39,8 +39,4 @@ echo "deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.
 sudo apt-get update -y
 sudo apt-get install -y kubelet kubeadm kubectl
 
-touch ~/test.txt
-
-/local/repository/scripts/init_k8s.sh
-
 exit 0
