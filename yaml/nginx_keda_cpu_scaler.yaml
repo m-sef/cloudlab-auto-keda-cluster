@@ -53,10 +53,10 @@ metadata:
   name: nginx-scaledobject
   namespace: nginx-namespace
 spec:
+  minReplicaCount: 2
+  maxReplicaCount: 10
   scaleTargetRef:
     name: nginx-deployment
-  minReplicas: 2
-  maxReplicas: 10
   triggers:
   - type: cpu
     metricType: Utilization
