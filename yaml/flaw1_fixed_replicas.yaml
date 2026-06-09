@@ -3,7 +3,6 @@
 #            Seth Moore (slmoore@hamilton.edu)
 # Brief: Modified flaw1.yaml from the ECKO experiments which always deploys 10
 #        replicas
-# * TODO - Verify this deployment works!
 #==============================================================================
 apiVersion: v1
 kind: Namespace

@@ -2,7 +2,6 @@
 # Author(s): Han Dong (hdong@hamilton.edu)
 #            Seth Moore (slmoore@hamilton.edu)
 # Brief: flaw1.yaml from the ECKO experiments
-# * TODO - Verify this deployment works!
 #==============================================================================
 apiVersion: v1
 kind: Namespace
