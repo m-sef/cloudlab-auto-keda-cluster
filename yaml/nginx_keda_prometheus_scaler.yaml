@@ -1,0 +1,64 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: nginx deployment utilizing KEDA Prometheus Scaler
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nginx-namespace
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: nginx-namespace
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.30
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "200m"
+          limits:
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+  namespace: nginx-namespace
+spec:
+  selector:
+    app: nginx
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: prometheus-scaledobject
+  namespace: nginx-namespace
+spec:
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  scaleTargetRef:
+    name: nginx-deployment
+  triggers:
+  - type: prometheus
+    metadata:
+      serverAddress: http://<prometheus-host>:9090
+      threshold: '30'
+      query: sum(rate(http_requests_total{deployment="nginx-deployment"}[1m]))
