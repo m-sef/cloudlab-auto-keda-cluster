@@ -1,3 +1,3 @@
-# cloudlab-auto-keda-cluster
+# cloudlab-keda-cluster
 
-CloudLab profile which automatically configures a cluster running KEDA (Kubernetes Event-driven Autoscaling) and Helm
+Cloudlab Profile for configuring a Kubernetes cluster running KEDA (Kubernetes Event Driven Autoscaling) an other utilities (e.g. Metrics server, Helm).

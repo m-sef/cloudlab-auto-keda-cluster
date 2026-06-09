@@ -1,0 +1,64 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: nginx deployment utilizing KEDA CPU Scaler
+# * TODO - Verify this deployment works!
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nginx-namespace
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: nginx-namespace
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.30
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "200m"
+          limits:
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+  namespace: nginx-namespace
+spec:
+  selector:
+    app: nginx
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: nginx-scaledobject
+  namespace: nginx-namespace
+spec:
+  scaleTargetRef:
+    name: nginx-deployment
+  minReplicas: 2
+  maxReplicas: 10
+  triggers:
+  - type: cpu
+    metricType: Utilization
+    metadata:
+      value: "50"
