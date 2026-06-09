@@ -17,6 +17,13 @@ kubectl drain $NODE --ignore-daemonsets --delete-emptydir-data
 kubectl delete node $NODE
 ```
 
+## delete_prometheus.sh
+
+```bash
+# Delete the YAML file under yaml/prometheus.yaml
+kubectl delete -f https://raw.githubusercontent.com/m-sef/cloudlab-auto-keda-cluster/main/yaml/prometheus.yaml
+```
+
 ## disable_hyperthreading.sh
 
 ```bash
@@ -77,6 +84,13 @@ helm install keda kedacore/keda --namespace keda --create-namespace
 
 ```bash
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+
+## install_prometheus.sh
+
+```bash
+# Apply the YAML file under yaml/prometheus.yaml
+kubectl apply -f https://raw.githubusercontent.com/m-sef/cloudlab-auto-keda-cluster/main/yaml/prometheus.yaml
 ```
 
 ## is_master.sh
