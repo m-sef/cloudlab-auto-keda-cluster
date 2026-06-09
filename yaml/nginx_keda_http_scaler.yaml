@@ -1,0 +1,5 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: nginx deployment utilizing KEDA HTTP Scaler
+# * TODO - Research available HTTP Scalers and implement this file!
+#==============================================================================
