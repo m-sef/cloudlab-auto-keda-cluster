@@ -1,7 +1,6 @@
 #==============================================================================
 # Author(s): Seth Moore (slmoore@hamilton.edu)
 # Brief: nginx deployment utilizing KEDA CPU Scaler
-# * TODO - Verify this deployment works!
 #==============================================================================
 apiVersion: v1
 kind: Namespace

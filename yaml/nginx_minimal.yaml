@@ -1,7 +1,6 @@
 #==============================================================================
 # Author(s): Seth Moore (slmoore@hamilton.edu)
 # Brief: Minimal nginx deployment
-# * TODO - Verify this deployment works!
 #==============================================================================
 apiVersion: apps/v1
 kind: Deployment
