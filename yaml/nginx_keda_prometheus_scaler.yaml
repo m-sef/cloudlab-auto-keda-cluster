@@ -59,6 +59,7 @@ spec:
   triggers:
   - type: prometheus
     metadata:
+      # Needs to be manually assigned
       serverAddress: http://<prometheus-host>:9090
       threshold: '30'
       query: sum(rate(http_requests_total{deployment="nginx-deployment"}[1m]))
