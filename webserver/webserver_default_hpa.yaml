@@ -33,6 +33,8 @@ spec:
         # TODO - Fix image!!!
         - image: webserver
           name: webserver
+          # Dear computa, please use the local image
+          imagePullPolicy: Never
       restartPolicy: Always
 ---
 apiVersion: v1
