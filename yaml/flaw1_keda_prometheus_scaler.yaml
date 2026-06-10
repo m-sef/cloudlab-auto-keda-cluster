@@ -2,6 +2,7 @@
 # Author(s): Han Dong (hdong@hamilton.edu)
 #            Seth Moore (slmoore@hamilton.edu)
 # Brief: Modified flaw1.yaml from the ECKO experiments using KEDA Prometheus Scaler
+# * WARNING - Catastrophically broken, DO NOT USE
 #==============================================================================
 apiVersion: v1
 kind: Namespace
