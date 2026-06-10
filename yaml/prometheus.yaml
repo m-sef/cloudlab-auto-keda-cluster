@@ -48,8 +48,8 @@ data:
               app: "prometheus"
       
       - job_name: "nginx-exporter"
-      static_configs:
-        - targets: ["nginx-exporter-service.nginx.svc.cluster.local:9113"]
+        static_configs:
+          - targets: ["nginx-exporter-service.nginx.svc.cluster.local:9113"]
 ---
 apiVersion: apps/v1
 kind: Deployment
