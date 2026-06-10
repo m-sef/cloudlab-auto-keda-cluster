@@ -1,6 +1,7 @@
 #==============================================================================
 # Author(s): Seth Moore (slmoore@hamilton.edu)
-# Brief: nginx deployment utilizing KEDA Prometheus Scaler
+# Brief: Minimal nginx deployment utilizing KEDA Prometheus Scaler for
+#        horizontal scaling
 #==============================================================================
 apiVersion: v1
 kind: Namespace

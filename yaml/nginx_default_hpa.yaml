@@ -1,7 +1,6 @@
 #==============================================================================
 # Author(s): Seth Moore (slmoore@hamilton.edu)
-# Brief: Minimal nginx deployment utilizing KEDA CPU Scaler for horizontal
-#        scaling
+# Brief: Minimal nginx deployment utilizing default HPA for horizontal scaling
 #==============================================================================
 apiVersion: v1
 kind: Namespace
@@ -47,18 +46,22 @@ spec:
     port: 80
     targetPort: 80
 ---
-apiVersion: keda.sh/v1alpha1
-kind: ScaledObject
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
 metadata:
-  name: nginx-scaledobject
+  name: nginx-hpa
   namespace: nginx
 spec:
-  minReplicaCount: 2
-  maxReplicaCount: 10
   scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
     name: nginx-deployment
-  triggers:
-  - type: cpu
-    metricType: Utilization
-    metadata:
-      value: "50"
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
