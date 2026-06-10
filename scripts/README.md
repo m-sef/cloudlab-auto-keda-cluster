@@ -2,6 +2,14 @@
 
 A collection of scripts for configuring the Kubernetes cluster and its nodes.
 
+## access_container.sh
+
+```bash
+CONTAINER_ID=$1
+
+docker exec -it $CONTAINER_ID /bin/bash
+```
+
 ## delete_metrics_server.sh
 
 ```bash
