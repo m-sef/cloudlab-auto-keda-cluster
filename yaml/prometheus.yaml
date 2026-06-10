@@ -53,7 +53,7 @@ data:
 
       - job_name: "flaw1-app"
         static_configs:
-          - targets: ["app.flaw1.svc.cluster.local:8080"]
+          - targets: ["app.flaw1.svc.cluster.local:80"]
 ---
 apiVersion: apps/v1
 kind: Deployment
