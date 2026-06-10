@@ -7,6 +7,15 @@ kind: Namespace
 metadata:
   name: nginx-namespace
 ---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: nginx-namespace
+data:
+  nginx.conf: |
+    PLACEHOLDER
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -27,11 +36,6 @@ spec:
         image: nginx:1.30
         ports:
         - containerPort: 80
-        resources:
-          requests:
-            cpu: "200m"
-          limits:
-            cpu: "500m"
 ---
 apiVersion: v1
 kind: Service
