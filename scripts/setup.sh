@@ -2,6 +2,9 @@
 # Usage: setup
 # Author(s): m_sef (https://github.com/m-sef)
 
+exit 0
+
+### IGNORE ###
 sudo apt-get update -y
 sudo apt-get install -y docker.io cpufrequtils conntrack
 
