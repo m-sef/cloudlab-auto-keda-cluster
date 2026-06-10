@@ -31,7 +31,6 @@ portal_context.defineParameter(
 # Pick your OS.
 imageList = [
     ('default', 'Default Image'),
-    ('kindest/node:v1.32.0', 'Kindest'),
     ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU24-64-STD', 'Ubuntu 24.04'),
     ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD', 'Ubuntu 22.04'),
     ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU20-64-STD', 'Ubuntu 20.04'),

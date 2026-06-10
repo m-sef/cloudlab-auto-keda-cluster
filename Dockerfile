@@ -1,3 +1,0 @@
-FROM kindest/node:v1.32.0
-
-COPY . .
