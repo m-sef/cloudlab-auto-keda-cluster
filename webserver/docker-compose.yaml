@@ -1,6 +1,7 @@
 services:
   webserver:
     build: .
+    image: webserver:latest
     networks:
     - webserver-network
 
