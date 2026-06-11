@@ -5,7 +5,7 @@ const port    = 8080;
 let http_requests_total = 0;
 
 app.get('/metrics', (request, response) => {
-    response.status(200).send(`# TYPE http_requests_total counter\nhttp_requests_total ${http_requests_total}`);
+    response.status(200).send(`# TYPE http_requests_total counter\nhttp_requests_total ${http_requests_total}\n`);
 })
 
 app.get('/', (request, response) => {
@@ -24,7 +24,7 @@ app.get('/', (request, response) => {
 
     console.log(`burn=${time_ms}, ${x}`);
 
-    response.status(200).send('ok');
+    response.status(200).send('ok\n');
 })
 
 app.listen(port, () => {
