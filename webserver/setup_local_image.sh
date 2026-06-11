@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# WARNING - Relies on deprecated tools!
 
 sudo docker build -t webserver .
 sudo docker save -o webserver.tar webserver:latest
