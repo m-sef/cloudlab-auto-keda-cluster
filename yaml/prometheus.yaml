@@ -48,6 +48,7 @@ data:
               app: "prometheus"
 
       - job_name: "webserver"
+        scrape_interval: 5s
         static_configs:
           - targets: ["webserver-service.webserver.svc.cluster.local:8080"]
 ---

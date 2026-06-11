@@ -54,6 +54,7 @@ metadata:
   name: webserver-scaledobject
   namespace: webserver
 spec:
+  pollingInterval: 10 # seconds
   minReplicaCount: 2
   maxReplicaCount: 10
   scaleTargetRef:
@@ -63,4 +64,4 @@ spec:
     metadata:
       serverAddress: http://prometheus-service.prometheus.svc.cluster.local:80
       threshold: '30'
-      query: sum(rate(http_requests_total{job="webserver"}[1m]))
+      query: sum(rate(http_requests_total{job="webserver"}[20s]))
