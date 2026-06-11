@@ -57,7 +57,7 @@ spec:
   minReplicaCount: 2
   maxReplicaCount: 10
   scaleTargetRef:
-    name: webserver
+    name: webserver-deployment
   triggers:
   - type: cpu
     metricType: Utilization
