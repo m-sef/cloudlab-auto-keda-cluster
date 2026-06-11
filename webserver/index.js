@@ -5,6 +5,7 @@ const port    = 8080;
 let http_requests_total = 0;
 
 app.get('/metrics', (request, response) => {
+    response.set('Content-Type', 'text/plain');
     response.status(200).send(`# TYPE http_requests_total counter\nhttp_requests_total ${http_requests_total}\n`);
 })
 
