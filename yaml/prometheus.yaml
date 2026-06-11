@@ -53,7 +53,7 @@ data:
           - targets: ["webserver-service.webserver.svc.cluster.local:8080"]
       
       - job_name: "nginx"
-        static_configs
+        static_configs:
           - targets: ["nginx-exporter-service.nginx.svc.cluster.local:9113"]
 ---
 apiVersion: apps/v1
