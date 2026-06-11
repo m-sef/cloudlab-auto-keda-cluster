@@ -49,7 +49,7 @@ data:
 
       - job_name: "webserver"
         static_configs:
-          - targets: ["https://webserver-service.webserver.svc.cluster.local:8080"]
+          - targets: ["webserver-service.webserver.svc.cluster.local:8080"]
 ---
 apiVersion: apps/v1
 kind: Deployment
