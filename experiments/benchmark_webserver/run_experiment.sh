@@ -6,6 +6,8 @@
 TOTAL_RUNS=1 # How many times to rerun the whole experiment
 TARGET_URL="http://$(kubectl get svc webserver-service -n webserver -o jsonpath='{.spec.clusterIP}')"
 
+BENCHMARK_NAME=$1
+
 # Helper function to run Vegeta load
 run_rate()
 {
@@ -26,7 +28,7 @@ run_experiment()
     echo "=========================================="
     
     # 1. Create a clean folder for this specific run's results
-    FOLDER_NAME="experiment_run_${run_id}"
+    FOLDER_NAME="results/${BENCHMARK_NAME}/experiment_run_${run_id}"
     mkdir -p "${FOLDER_NAME}"
 
     # 2. Start HPA monitoring in the background and log to watch.log
@@ -34,7 +36,7 @@ run_experiment()
     
     # This loop runs silently in the background ($! grabs its process ID)
     while true; do
-        kubectl get hpa -n flaw1 | tail -n 1 >> "${FOLDER_NAME}/watch.log" 2>/dev/null
+        kubectl get hpa -n webserver | tail -n 1 >> "${FOLDER_NAME}/watch.log" 2>/dev/null
         sleep 1
     done &
     WATCHER_PID=$!
