@@ -41,6 +41,7 @@ metadata:
   name: webserver-service
   namespace: webserver
 spec:
+  clusterIP: None
   selector:
     app: webserver
   ports:
