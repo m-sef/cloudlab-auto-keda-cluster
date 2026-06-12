@@ -1,0 +1,1592 @@
+Requests      [total, rate, throughput]         50, 57.74, 47.43
+Duration      [total, attack, wait]             1.054s, 865.976ms, 188.165ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 136.003ms, 112.765ms, 255.028ms, 321.66ms, 413.481ms, 413.481ms
+Bytes In      [total, mean]                     150, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:50  
+Error Set:
+Requests      [total, rate, throughput]         99, 55.52, 48.13
+Duration      [total, attack, wait]             2.057s, 1.783s, 273.851ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 218.569ms, 194.636ms, 402.438ms, 538.865ms, 837.198ms, 908.512ms
+Bytes In      [total, mean]                     297, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:99  
+Error Set:
+Requests      [total, rate, throughput]         148, 55.16, 48.29
+Duration      [total, attack, wait]             3.065s, 2.683s, 381.789ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 296.197ms, 274.153ms, 545.519ms, 768.153ms, 1.212s, 1.238s
+Bytes In      [total, mean]                     444, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:148  
+Error Set:
+Requests      [total, rate, throughput]         196, 54.70, 48.41
+Duration      [total, attack, wait]             4.049s, 3.583s, 465.766ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 360.4ms, 323.282ms, 568.538ms, 887.886ms, 1.538s, 1.849s
+Bytes In      [total, mean]                     588, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:196  
+Error Set:
+Requests      [total, rate, throughput]         245, 54.04, 48.51
+Duration      [total, attack, wait]             5.05s, 4.533s, 516.601ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 426.925ms, 397ms, 681.427ms, 973.713ms, 2.039s, 2.59s
+Bytes In      [total, mean]                     735, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:245  
+Error Set:
+Requests      [total, rate, throughput]         294, 54.11, 48.52
+Duration      [total, attack, wait]             6.059s, 5.433s, 625.909ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 493.301ms, 439.693ms, 777.119ms, 1.187s, 2.691s, 3.594s
+Bytes In      [total, mean]                     882, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:294  
+Error Set:
+Requests      [total, rate, throughput]         343, 53.46, 48.59
+Duration      [total, attack, wait]             7.059s, 6.416s, 642.717ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 536.918ms, 484.093ms, 750.757ms, 1.216s, 3.053s, 4.192s
+Bytes In      [total, mean]                     1029, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:343  
+Error Set:
+Requests      [total, rate, throughput]         392, 53.45, 48.58
+Duration      [total, attack, wait]             8.069s, 7.333s, 735.898ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 590.977ms, 523.037ms, 784.753ms, 1.321s, 3.756s, 4.847s
+Bytes In      [total, mean]                     1176, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:392  
+Error Set:
+Requests      [total, rate, throughput]         440, 53.34, 48.60
+Duration      [total, attack, wait]             9.053s, 8.249s, 803.717ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 646.354ms, 563.841ms, 829.29ms, 1.397s, 4.454s, 6.113s
+Bytes In      [total, mean]                     1320, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:440  
+Error Set:
+Requests      [total, rate, throughput]         489, 52.96, 48.65
+Duration      [total, attack, wait]             10.052s, 9.233s, 818.845ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 687.597ms, 603.385ms, 856.181ms, 1.458s, 4.904s, 6.858s
+Bytes In      [total, mean]                     1467, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:489  
+Error Set:
+Requests      [total, rate, throughput]         540, 49.17, 48.81
+Duration      [total, attack, wait]             11.064s, 10.983s, 81.598ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 725.863ms, 627.12ms, 885.595ms, 1.514s, 5.47s, 7.593s
+Bytes In      [total, mean]                     1620, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:540  
+Error Set:
+Requests      [total, rate, throughput]         601, 50.09, 49.88
+Duration      [total, attack, wait]             12.048s, 12s, 48.578ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 749.883ms, 649.747ms, 901.68ms, 1.549s, 5.91s, 8.27s
+Bytes In      [total, mean]                     1803, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:601  
+Error Set:
+Requests      [total, rate, throughput]         663, 51.00, 50.82
+Duration      [total, attack, wait]             13.046s, 12.999s, 46.656ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 773.233ms, 678.308ms, 935.013ms, 1.588s, 6.381s, 9.03s
+Bytes In      [total, mean]                     1989, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:663  
+Error Set:
+Requests      [total, rate, throughput]         724, 51.96, 51.50
+Duration      [total, attack, wait]             14.058s, 13.933s, 124.786ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 796.542ms, 692.752ms, 969.877ms, 1.626s, 6.877s, 9.85s
+Bytes In      [total, mean]                     2172, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:724  
+Error Set:
+Requests      [total, rate, throughput]         787, 52.47, 52.27
+Duration      [total, attack, wait]             15.055s, 14.999s, 55.706ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.48ms, 817.501ms, 723.935ms, 1.002s, 1.65s, 7.337s, 10.585s
+Bytes In      [total, mean]                     2361, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:787  
+Error Set:
+Requests      [total, rate, throughput]         847, 52.99, 52.71
+Duration      [total, attack, wait]             16.068s, 15.984s, 84.415ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 838.63ms, 734.983ms, 1.022s, 1.65s, 7.831s, 11.164s
+Bytes In      [total, mean]                     2541, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:847  
+Error Set:
+Requests      [total, rate, throughput]         907, 53.46, 53.19
+Duration      [total, attack, wait]             17.052s, 16.967s, 85.478ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 861.335ms, 761.786ms, 1.057s, 1.68s, 8.383s, 11.858s
+Bytes In      [total, mean]                     2721, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:907  
+Error Set:
+Requests      [total, rate, throughput]         968, 53.93, 53.63
+Duration      [total, attack, wait]             18.048s, 17.95s, 98.439ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 896.599ms, 775.699ms, 1.096s, 1.697s, 9.405s, 13.479s
+Bytes In      [total, mean]                     2904, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:968  
+Error Set:
+Requests      [total, rate, throughput]         1029, 54.11, 53.99
+Duration      [total, attack, wait]             19.058s, 19.017s, 41.725ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 917.236ms, 798.444ms, 1.132s, 1.71s, 10.032s, 13.748s
+Bytes In      [total, mean]                     3087, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1029  
+Error Set:
+Requests      [total, rate, throughput]         1089, 54.54, 54.31
+Duration      [total, attack, wait]             20.05s, 19.967s, 83.491ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 940.245ms, 811.424ms, 1.15s, 1.721s, 10.557s, 14.569s
+Bytes In      [total, mean]                     3267, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1089  
+Error Set:
+Requests      [total, rate, throughput]         1152, 54.77, 54.66
+Duration      [total, attack, wait]             21.075s, 21.034s, 41.906ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 947.917ms, 817.541ms, 1.179s, 1.704s, 10.689s, 15.349s
+Bytes In      [total, mean]                     3456, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1152  
+Error Set:
+Requests      [total, rate, throughput]         1213, 55.09, 54.99
+Duration      [total, attack, wait]             22.058s, 22.017s, 41.785ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 968.918ms, 828.124ms, 1.211s, 1.715s, 11.241s, 15.885s
+Bytes In      [total, mean]                     3639, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1213  
+Error Set:
+Requests      [total, rate, throughput]         1273, 55.35, 55.24
+Duration      [total, attack, wait]             23.046s, 22.999s, 46.691ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 990.849ms, 832.755ms, 1.236s, 1.73s, 11.805s, 16.915s
+Bytes In      [total, mean]                     3819, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1273  
+Error Set:
+Requests      [total, rate, throughput]         1335, 55.66, 55.46
+Duration      [total, attack, wait]             24.072s, 23.984s, 88.509ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.421ms, 1.012s, 844.303ms, 1.264s, 1.733s, 12.433s, 17.819s
+Bytes In      [total, mean]                     4005, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1335  
+Error Set:
+Requests      [total, rate, throughput]         1394, 55.91, 55.63
+Duration      [total, attack, wait]             25.058s, 24.933s, 125.413ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.417ms, 1.022s, 851.565ms, 1.291s, 1.719s, 12.615s, 18.384s
+Bytes In      [total, mean]                     4182, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1394  
+Error Set:
+Requests      [total, rate, throughput]         1458, 56.08, 55.90
+Duration      [total, attack, wait]             26.084s, 26s, 84.255ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.417ms, 1.042s, 854.231ms, 1.31s, 1.729s, 13.151s, 19.13s
+Bytes In      [total, mean]                     4374, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1458  
+Error Set:
+Requests      [total, rate, throughput]         1519, 56.29, 56.12
+Duration      [total, attack, wait]             27.069s, 26.984s, 85.374ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.264ms, 1.064s, 857.49ms, 1.344s, 1.74s, 13.728s, 20.483s
+Bytes In      [total, mean]                     4557, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1519  
+Error Set:
+Requests      [total, rate, throughput]         1579, 56.46, 56.29
+Duration      [total, attack, wait]             28.053s, 27.967s, 85.969ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.072s, 859.215ms, 1.376s, 1.728s, 13.889s, 20.483s
+Bytes In      [total, mean]                     4737, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1579  
+Error Set:
+Requests      [total, rate, throughput]         1642, 56.56, 56.48
+Duration      [total, attack, wait]             29.074s, 29.033s, 41.46ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.092s, 863.475ms, 1.385s, 1.735s, 14.425s, 21.833s
+Bytes In      [total, mean]                     4926, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1642  
+Error Set:
+Requests      [total, rate, throughput]         1701, 56.67, 56.59
+Duration      [total, attack, wait]             30.058s, 30.017s, 41.71ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.114s, 868.578ms, 1.384s, 1.747s, 14.977s, 23.186s
+Bytes In      [total, mean]                     5103, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1701  
+Error Set:
+Requests      [total, rate, throughput]         1763, 56.87, 56.79
+Duration      [total, attack, wait]             31.046s, 31s, 46.416ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.134s, 872.537ms, 1.382s, 1.757s, 15.545s, 24.213s
+Bytes In      [total, mean]                     5289, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1763  
+Error Set:
+Requests      [total, rate, throughput]         1825, 57.06, 56.90
+Duration      [total, attack, wait]             32.071s, 31.984s, 87.499ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.142s, 874.686ms, 1.381s, 1.734s, 15.722s, 24.213s
+Bytes In      [total, mean]                     5475, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1825  
+Error Set:
+Requests      [total, rate, throughput]         1885, 57.09, 57.02
+Duration      [total, attack, wait]             33.058s, 33.017s, 41.85ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.162s, 877.313ms, 1.38s, 1.751s, 16.376s, 25.482s
+Bytes In      [total, mean]                     5655, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1885  
+Error Set:
+Requests      [total, rate, throughput]         1947, 57.27, 57.19
+Duration      [total, attack, wait]             34.046s, 34s, 46.367ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.183s, 882.085ms, 1.378s, 1.766s, 17.021s, 26.722s
+Bytes In      [total, mean]                     5841, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:1947  
+Error Set:
+Requests      [total, rate, throughput]         2009, 57.43, 57.28
+Duration      [total, attack, wait]             35.071s, 34.984s, 87.454ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.198ms, 1.191s, 886.324ms, 1.376s, 1.765s, 17.198s, 26.722s
+Bytes In      [total, mean]                     6027, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2009  
+Error Set:
+Requests      [total, rate, throughput]         2070, 57.55, 57.41
+Duration      [total, attack, wait]             36.056s, 35.966s, 89.565ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.21s, 889.876ms, 1.375s, 1.764s, 17.807s, 27.99s
+Bytes In      [total, mean]                     6210, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2070  
+Error Set:
+Requests      [total, rate, throughput]         2132, 57.62, 57.49
+Duration      [total, attack, wait]             37.082s, 37s, 82.033ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.231s, 893.105ms, 1.38s, 1.772s, 18.408s, 28.934s
+Bytes In      [total, mean]                     6396, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           100.00%
+Status Codes  [code:count]                      200:2132  
+Error Set:
+Requests      [total, rate, throughput]         2195, 57.79, 57.61
+Duration      [total, attack, wait]             38.066s, 37.983s, 83.119ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.263s, 895.38ms, 1.385s, 1.789s, 19.493s, 30.001s
+Bytes In      [total, mean]                     6579, 3.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.91%
+Status Codes  [code:count]                      0:2  200:2193  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2263, 58.08, 57.67
+Duration      [total, attack, wait]             39.05s, 38.966s, 83.977ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.37s, 897.202ms, 1.392s, 1.863s, 23.626s, 30.001s
+Bytes In      [total, mean]                     6756, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:11  200:2252  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2338, 58.40, 57.79
+Duration      [total, attack, wait]             40.074s, 40.033s, 41.735ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.494s, 899.02ms, 1.408s, 2.025s, 28.792s, 30.001s
+Bytes In      [total, mean]                     6948, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.06%
+Status Codes  [code:count]                      0:22  200:2316  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2407, 58.68, 57.87
+Duration      [total, attack, wait]             41.058s, 41.017s, 41.584ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.587s, 900.886ms, 1.416s, 2.128s, 30s, 30.001s
+Bytes In      [total, mean]                     7128, 2.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.71%
+Status Codes  [code:count]                      0:31  200:2376  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2467, 58.74, 57.93
+Duration      [total, attack, wait]             42.051s, 42s, 51.471ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.572s, 903.728ms, 1.413s, 2.077s, 30s, 30.001s
+Bytes In      [total, mean]                     7308, 2.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.74%
+Status Codes  [code:count]                      0:31  200:2436  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2527, 58.79, 57.95
+Duration      [total, attack, wait]             43.07s, 42.984s, 86.464ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.558s, 912.422ms, 1.411s, 2.043s, 30s, 30.001s
+Bytes In      [total, mean]                     7488, 2.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.77%
+Status Codes  [code:count]                      0:31  200:2496  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2585, 58.79, 57.97
+Duration      [total, attack, wait]             44.055s, 43.967s, 88.417ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.545s, 919.082ms, 1.408s, 2.012s, 29.956s, 30.001s
+Bytes In      [total, mean]                     7662, 2.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.80%
+Status Codes  [code:count]                      0:31  200:2554  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2645, 58.80, 58.03
+Duration      [total, attack, wait]             45.047s, 44.984s, 63.523ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.532s, 926.013ms, 1.404s, 1.977s, 29.881s, 30.001s
+Bytes In      [total, mean]                     7842, 2.96
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.83%
+Status Codes  [code:count]                      0:31  200:2614  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2706, 58.80, 58.08
+Duration      [total, attack, wait]             46.058s, 46.017s, 41.628ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.519s, 932.197ms, 1.4s, 1.923s, 29.804s, 30.001s
+Bytes In      [total, mean]                     8025, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.85%
+Status Codes  [code:count]                      0:31  200:2675  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2766, 58.89, 58.13
+Duration      [total, attack, wait]             47.049s, 46.967s, 82.416ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.508s, 940.721ms, 1.404s, 1.907s, 29.729s, 30.001s
+Bytes In      [total, mean]                     8205, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.88%
+Status Codes  [code:count]                      0:31  200:2735  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2828, 58.98, 58.18
+Duration      [total, attack, wait]             48.075s, 47.95s, 125.526ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.495s, 951.975ms, 1.401s, 1.871s, 29.651s, 30.001s
+Bytes In      [total, mean]                     8391, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.90%
+Status Codes  [code:count]                      0:31  200:2797  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2888, 58.92, 58.24
+Duration      [total, attack, wait]             49.058s, 49.017s, 41.453ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.483s, 963.965ms, 1.397s, 1.836s, 29.575s, 30.001s
+Bytes In      [total, mean]                     8571, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.93%
+Status Codes  [code:count]                      0:31  200:2857  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         2949, 58.98, 58.30
+Duration      [total, attack, wait]             50.051s, 50s, 51.358ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.472s, 977.503ms, 1.396s, 1.812s, 29.499s, 30.001s
+Bytes In      [total, mean]                     8754, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.95%
+Status Codes  [code:count]                      0:31  200:2918  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3010, 59.04, 58.33
+Duration      [total, attack, wait]             51.069s, 50.984s, 85.493ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.461s, 986.463ms, 1.395s, 1.788s, 29.422s, 30.001s
+Bytes In      [total, mean]                     8937, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.97%
+Status Codes  [code:count]                      0:31  200:2979  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3067, 59.02, 58.32
+Duration      [total, attack, wait]             52.054s, 51.967s, 87.283ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.195ms, 1.452s, 995.921ms, 1.394s, 1.766s, 29.35s, 30.001s
+Bytes In      [total, mean]                     9108, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           98.99%
+Status Codes  [code:count]                      0:31  200:3036  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3129, 59.00, 58.37
+Duration      [total, attack, wait]             53.075s, 53.034s, 41.497ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.441s, 999.867ms, 1.393s, 1.716s, 29.17s, 30.001s
+Bytes In      [total, mean]                     9294, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.01%
+Status Codes  [code:count]                      0:31  200:3098  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3189, 59.04, 58.42
+Duration      [total, attack, wait]             54.058s, 54.017s, 41.776ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.431s, 996.353ms, 1.393s, 1.684s, 28.884s, 30.001s
+Bytes In      [total, mean]                     9474, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.03%
+Status Codes  [code:count]                      0:31  200:3158  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3249, 59.11, 58.46
+Duration      [total, attack, wait]             55.048s, 54.966s, 82.114ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.422s, 993.843ms, 1.392s, 1.668s, 28.598s, 30.001s
+Bytes In      [total, mean]                     9654, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.05%
+Status Codes  [code:count]                      0:31  200:3218  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3310, 59.16, 58.48
+Duration      [total, attack, wait]             56.074s, 55.95s, 124.293ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.413s, 991.082ms, 1.392s, 1.651s, 28.307s, 30.001s
+Bytes In      [total, mean]                     9837, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.06%
+Status Codes  [code:count]                      0:31  200:3279  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3370, 59.11, 58.52
+Duration      [total, attack, wait]             57.058s, 57.017s, 41.562ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.403s, 988.07ms, 1.391s, 1.634s, 28.02s, 30.001s
+Bytes In      [total, mean]                     10017, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.08%
+Status Codes  [code:count]                      0:31  200:3339  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3432, 59.17, 58.59
+Duration      [total, attack, wait]             58.048s, 58s, 48.492ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.394s, 985.058ms, 1.391s, 1.599s, 27.725s, 30.001s
+Bytes In      [total, mean]                     10203, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.10%
+Status Codes  [code:count]                      0:31  200:3401  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3494, 59.24, 58.63
+Duration      [total, attack, wait]             59.069s, 58.984s, 85.549ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.385s, 982.046ms, 1.391s, 1.581s, 27.429s, 30.001s
+Bytes In      [total, mean]                     10389, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.11%
+Status Codes  [code:count]                      0:31  200:3463  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3552, 59.23, 58.63
+Duration      [total, attack, wait]             1m0s, 59.967s, 86.556ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.376s, 979.536ms, 1.39s, 1.566s, 27.152s, 30.001s
+Bytes In      [total, mean]                     10563, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.13%
+Status Codes  [code:count]                      0:31  200:3521  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3613, 59.28, 58.68
+Duration      [total, attack, wait]             1m1s, 1m1s, 96.471ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.367s, 976.422ms, 1.39s, 1.55s, 26.861s, 30.001s
+Bytes In      [total, mean]                     10746, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.14%
+Status Codes  [code:count]                      0:31  200:3582  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3676, 59.27, 58.74
+Duration      [total, attack, wait]             1m2s, 1m2s, 41.666ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.358s, 973.866ms, 1.39s, 1.547s, 26.56s, 30.001s
+Bytes In      [total, mean]                     10935, 2.97
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.16%
+Status Codes  [code:count]                      0:31  200:3645  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3737, 59.32, 58.78
+Duration      [total, attack, wait]             1m3s, 1m3s, 47.676ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.349s, 970.361ms, 1.389s, 1.535s, 26.269s, 30.001s
+Bytes In      [total, mean]                     11118, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.17%
+Status Codes  [code:count]                      0:31  200:3706  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3799, 59.34, 58.82
+Duration      [total, attack, wait]             1m4s, 1m4s, 41.737ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.34s, 956.47ms, 1.389s, 1.531s, 25.973s, 30.001s
+Bytes In      [total, mean]                     11304, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.18%
+Status Codes  [code:count]                      0:31  200:3768  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3860, 59.45, 58.86
+Duration      [total, attack, wait]             1m5s, 1m5s, 124.42ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.331s, 948.46ms, 1.388s, 1.537s, 25.682s, 30.001s
+Bytes In      [total, mean]                     11487, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.20%
+Status Codes  [code:count]                      0:31  200:3829  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3923, 59.44, 58.93
+Duration      [total, attack, wait]             1m6s, 1m6s, 49.541ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.321s, 941.158ms, 1.388s, 1.533s, 25.382s, 30.001s
+Bytes In      [total, mean]                     11676, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.21%
+Status Codes  [code:count]                      0:31  200:3892  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         3985, 59.49, 58.96
+Duration      [total, attack, wait]             1m7s, 1m7s, 83.3ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.311s, 940.099ms, 1.388s, 1.525s, 25.086s, 30.001s
+Bytes In      [total, mean]                     11862, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.22%
+Status Codes  [code:count]                      0:31  200:3954  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4045, 59.51, 58.98
+Duration      [total, attack, wait]             1m8s, 1m8s, 85.484ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.301s, 939.139ms, 1.386s, 1.517s, 24.799s, 30.001s
+Bytes In      [total, mean]                     12042, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.23%
+Status Codes  [code:count]                      0:31  200:4014  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4108, 59.51, 59.02
+Duration      [total, attack, wait]             1m9s, 1m9s, 41.67ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.29s, 938.053ms, 1.385s, 1.507s, 24.481s, 30.001s
+Bytes In      [total, mean]                     12231, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.25%
+Status Codes  [code:count]                      0:31  200:4077  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4169, 59.54, 59.07
+Duration      [total, attack, wait]             1m10s, 1m10s, 41.657ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.28s, 937.159ms, 1.384s, 1.499s, 24.172s, 30.001s
+Bytes In      [total, mean]                     12414, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.26%
+Status Codes  [code:count]                      0:31  200:4138  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4231, 59.59, 59.12
+Duration      [total, attack, wait]             1m11s, 1m11s, 46.436ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.27s, 936.533ms, 1.383s, 1.49s, 23.857s, 30.001s
+Bytes In      [total, mean]                     12600, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.27%
+Status Codes  [code:count]                      0:31  200:4200  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4294, 59.65, 59.15
+Duration      [total, attack, wait]             1m12s, 1m12s, 87.453ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.259s, 935.99ms, 1.381s, 1.48s, 23.537s, 30.001s
+Bytes In      [total, mean]                     12789, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.28%
+Status Codes  [code:count]                      0:31  200:4263  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4354, 59.67, 59.17
+Duration      [total, attack, wait]             1m13s, 1m13s, 88.476ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.248s, 935.384ms, 1.38s, 1.472s, 23.233s, 30.001s
+Bytes In      [total, mean]                     12969, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.29%
+Status Codes  [code:count]                      0:31  200:4323  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4416, 59.65, 59.20
+Duration      [total, attack, wait]             1m14s, 1m14s, 41.751ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.238s, 934.729ms, 1.379s, 1.468s, 22.918s, 30.001s
+Bytes In      [total, mean]                     13155, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.30%
+Status Codes  [code:count]                      0:31  200:4385  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4477, 59.68, 59.23
+Duration      [total, attack, wait]             1m15s, 1m15s, 41.695ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.227s, 934.121ms, 1.377s, 1.464s, 22.608s, 30.001s
+Bytes In      [total, mean]                     13338, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.31%
+Status Codes  [code:count]                      0:31  200:4446  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4537, 59.72, 59.25
+Duration      [total, attack, wait]             1m16s, 1m16s, 82.445ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  41.192ms, 1.217s, 933.646ms, 1.376s, 1.461s, 22.304s, 30.001s
+Bytes In      [total, mean]                     13518, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.32%
+Status Codes  [code:count]                      0:31  200:4506  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4600, 59.73, 59.29
+Duration      [total, attack, wait]             1m17s, 1m17s, 41.646ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.965ms, 1.206s, 933.135ms, 1.375s, 1.458s, 21.984s, 30.001s
+Bytes In      [total, mean]                     13707, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.33%
+Status Codes  [code:count]                      0:31  200:4569  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4660, 59.73, 59.30
+Duration      [total, attack, wait]             1m18s, 1m18s, 41.506ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.965ms, 1.196s, 932.695ms, 1.374s, 1.456s, 21.679s, 30.001s
+Bytes In      [total, mean]                     13887, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.33%
+Status Codes  [code:count]                      0:31  200:4629  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4720, 59.75, 59.32
+Duration      [total, attack, wait]             1m19s, 1m19s, 48.184ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.186s, 932.059ms, 1.372s, 1.453s, 21.375s, 30.001s
+Bytes In      [total, mean]                     14067, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.34%
+Status Codes  [code:count]                      0:31  200:4689  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4781, 59.76, 59.32
+Duration      [total, attack, wait]             1m20s, 1m20s, 72.646ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.176s, 931.158ms, 1.371s, 1.449s, 21.065s, 30.001s
+Bytes In      [total, mean]                     14250, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.35%
+Status Codes  [code:count]                      0:31  200:4750  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4840, 59.75, 59.33
+Duration      [total, attack, wait]             1m21s, 1m21s, 57.234ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.166s, 930.259ms, 1.37s, 1.446s, 20.766s, 30.001s
+Bytes In      [total, mean]                     14427, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.36%
+Status Codes  [code:count]                      0:31  200:4809  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4901, 59.74, 59.34
+Duration      [total, attack, wait]             1m22s, 1m22s, 41.575ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.157s, 929.486ms, 1.37s, 1.443s, 20.456s, 30.001s
+Bytes In      [total, mean]                     14610, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.37%
+Status Codes  [code:count]                      0:31  200:4870  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         4960, 59.75, 59.34
+Duration      [total, attack, wait]             1m23s, 1m23s, 41.681ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.148s, 928.748ms, 1.369s, 1.44s, 20.157s, 30.001s
+Bytes In      [total, mean]                     14787, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:31  200:4929  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5020, 59.76, 59.36
+Duration      [total, attack, wait]             1m24s, 1m24s, 49.625ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.139s, 927.648ms, 1.368s, 1.437s, 19.865s, 30.001s
+Bytes In      [total, mean]                     14967, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.38%
+Status Codes  [code:count]                      0:31  200:4989  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5080, 59.75, 59.36
+Duration      [total, attack, wait]             1m25s, 1m25s, 41.585ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.13s, 926.522ms, 1.367s, 1.436s, 19.6s, 30.001s
+Bytes In      [total, mean]                     15147, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.39%
+Status Codes  [code:count]                      0:31  200:5049  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5140, 59.76, 59.37
+Duration      [total, attack, wait]             1m26s, 1m26s, 41.783ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.122s, 920.208ms, 1.367s, 1.435s, 19.334s, 30.001s
+Bytes In      [total, mean]                     15327, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:31  200:5109  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5201, 59.76, 59.37
+Duration      [total, attack, wait]             1m27s, 1m27s, 41.725ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.113s, 913.631ms, 1.366s, 1.435s, 19.064s, 30.001s
+Bytes In      [total, mean]                     15510, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.40%
+Status Codes  [code:count]                      0:31  200:5170  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5260, 59.76, 59.38
+Duration      [total, attack, wait]             1m28s, 1m28s, 41.719ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.105s, 908.066ms, 1.366s, 1.434s, 18.803s, 30.001s
+Bytes In      [total, mean]                     15687, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.41%
+Status Codes  [code:count]                      0:31  200:5229  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5320, 59.78, 59.39
+Duration      [total, attack, wait]             1m29s, 1m29s, 55.556ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.098s, 904.796ms, 1.366s, 1.433s, 18.537s, 30.001s
+Bytes In      [total, mean]                     15867, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:31  200:5289  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5380, 59.77, 59.40
+Duration      [total, attack, wait]             1m30s, 1m30s, 41.774ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.09s, 900.489ms, 1.365s, 1.432s, 18.271s, 30.001s
+Bytes In      [total, mean]                     16047, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.42%
+Status Codes  [code:count]                      0:31  200:5349  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5440, 59.77, 59.40
+Duration      [total, attack, wait]             1m31s, 1m31s, 41.735ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.082s, 899.451ms, 1.365s, 1.431s, 18.006s, 30.001s
+Bytes In      [total, mean]                     16227, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.43%
+Status Codes  [code:count]                      0:31  200:5409  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5500, 59.78, 59.41
+Duration      [total, attack, wait]             1m32s, 1m32s, 50.671ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.075s, 898.832ms, 1.363s, 1.43s, 17.74s, 30.001s
+Bytes In      [total, mean]                     16407, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:31  200:5469  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5561, 59.79, 59.43
+Duration      [total, attack, wait]             1m33s, 1m33s, 41.652ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.067s, 898.152ms, 1.362s, 1.429s, 17.47s, 30.001s
+Bytes In      [total, mean]                     16590, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.44%
+Status Codes  [code:count]                      0:31  200:5530  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5622, 59.80, 59.44
+Duration      [total, attack, wait]             1m34s, 1m34s, 41.697ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.06s, 897.249ms, 1.361s, 1.429s, 17.2s, 30.001s
+Bytes In      [total, mean]                     16773, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:31  200:5591  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5682, 59.81, 59.46
+Duration      [total, attack, wait]             1m35s, 1m35s, 45.989ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.053s, 896.371ms, 1.36s, 1.428s, 16.934s, 30.001s
+Bytes In      [total, mean]                     16953, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.45%
+Status Codes  [code:count]                      0:31  200:5651  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5742, 59.80, 59.45
+Duration      [total, attack, wait]             1m36s, 1m36s, 41.627ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.046s, 895.262ms, 1.358s, 1.427s, 16.669s, 30.001s
+Bytes In      [total, mean]                     17133, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.46%
+Status Codes  [code:count]                      0:31  200:5711  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5802, 59.81, 59.46
+Duration      [total, attack, wait]             1m37s, 1m37s, 54.682ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.039s, 894.117ms, 1.357s, 1.427s, 16.403s, 30.001s
+Bytes In      [total, mean]                     17313, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:31  200:5771  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5862, 59.81, 59.46
+Duration      [total, attack, wait]             1m38s, 1m38s, 42.315ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.032s, 892.948ms, 1.356s, 1.426s, 16.138s, 30.001s
+Bytes In      [total, mean]                     17493, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.47%
+Status Codes  [code:count]                      0:31  200:5831  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5922, 59.81, 59.47
+Duration      [total, attack, wait]             1m39s, 1m39s, 41.71ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.025s, 891.747ms, 1.355s, 1.425s, 15.872s, 30.001s
+Bytes In      [total, mean]                     17673, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:31  200:5891  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         5982, 59.82, 59.48
+Duration      [total, attack, wait]             1m40s, 1m40s, 50.714ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.019s, 890.587ms, 1.355s, 1.425s, 15.606s, 30.001s
+Bytes In      [total, mean]                     17853, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.48%
+Status Codes  [code:count]                      0:31  200:5951  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6042, 59.81, 59.48
+Duration      [total, attack, wait]             1m41s, 1m41s, 41.514ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.012s, 889.678ms, 1.354s, 1.424s, 15.341s, 30.001s
+Bytes In      [total, mean]                     18033, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:31  200:6011  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6102, 59.81, 59.49
+Duration      [total, attack, wait]             1m42s, 1m42s, 41.648ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 1.006s, 888.784ms, 1.353s, 1.423s, 15.075s, 30.001s
+Bytes In      [total, mean]                     18213, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.49%
+Status Codes  [code:count]                      0:31  200:6071  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6163, 59.82, 59.49
+Duration      [total, attack, wait]             1m43s, 1m43s, 41.767ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 999.555ms, 887.223ms, 1.352s, 1.422s, 14.805s, 30.001s
+Bytes In      [total, mean]                     18396, 2.98
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:31  200:6132  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6222, 59.82, 59.50
+Duration      [total, attack, wait]             1m44s, 1m44s, 41.707ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 993.701ms, 885.521ms, 1.351s, 1.422s, 14.552s, 30.001s
+Bytes In      [total, mean]                     18573, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.50%
+Status Codes  [code:count]                      0:31  200:6191  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6282, 59.83, 59.50
+Duration      [total, attack, wait]             1m45s, 1m45s, 53.565ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 987.803ms, 882.82ms, 1.35s, 1.421s, 14.307s, 30.001s
+Bytes In      [total, mean]                     18753, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:31  200:6251  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6342, 59.82, 59.51
+Duration      [total, attack, wait]             1m46s, 1m46s, 41.513ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 981.895ms, 879.003ms, 1.35s, 1.42s, 14.063s, 30.001s
+Bytes In      [total, mean]                     18933, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.51%
+Status Codes  [code:count]                      0:31  200:6311  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6402, 59.82, 59.51
+Duration      [total, attack, wait]             1m47s, 1m47s, 41.701ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 976.103ms, 875.186ms, 1.349s, 1.419s, 13.819s, 30.001s
+Bytes In      [total, mean]                     19113, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:31  200:6371  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6462, 59.83, 59.52
+Duration      [total, attack, wait]             1m48s, 1m48s, 46.719ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 970.527ms, 870.483ms, 1.348s, 1.419s, 13.575s, 30.001s
+Bytes In      [total, mean]                     19293, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:31  200:6431  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6522, 59.83, 59.52
+Duration      [total, attack, wait]             1m49s, 1m49s, 41.627ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 965.063ms, 865.669ms, 1.348s, 1.418s, 13.331s, 30.001s
+Bytes In      [total, mean]                     19473, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.52%
+Status Codes  [code:count]                      0:31  200:6491  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6583, 59.85, 59.53
+Duration      [total, attack, wait]             1m50s, 1m50s, 56.73ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 959.549ms, 860.597ms, 1.347s, 1.417s, 13.083s, 30.001s
+Bytes In      [total, mean]                     19656, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:31  200:6552  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6643, 59.84, 59.54
+Duration      [total, attack, wait]             1m51s, 1m51s, 41.633ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 954.119ms, 855.575ms, 1.347s, 1.417s, 12.838s, 30.001s
+Bytes In      [total, mean]                     19836, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.53%
+Status Codes  [code:count]                      0:31  200:6612  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6703, 59.84, 59.54
+Duration      [total, attack, wait]             1m52s, 1m52s, 41.541ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 948.678ms, 850.546ms, 1.346s, 1.416s, 12.594s, 30.001s
+Bytes In      [total, mean]                     20016, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:31  200:6672  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6764, 59.86, 59.56
+Duration      [total, attack, wait]             1m53s, 1m53s, 48.658ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 943.422ms, 845.604ms, 1.345s, 1.415s, 12.346s, 30.001s
+Bytes In      [total, mean]                     20199, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.54%
+Status Codes  [code:count]                      0:31  200:6733  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6824, 59.85, 59.56
+Duration      [total, attack, wait]             1m54s, 1m54s, 41.521ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 938.054ms, 838.205ms, 1.343s, 1.415s, 12.102s, 30.001s
+Bytes In      [total, mean]                     20379, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:31  200:6793  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6884, 59.86, 59.56
+Duration      [total, attack, wait]             1m55s, 1m55s, 58.781ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 932.848ms, 830.051ms, 1.342s, 1.414s, 11.858s, 30.001s
+Bytes In      [total, mean]                     20559, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:31  200:6853  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         6945, 59.85, 59.56
+Duration      [total, attack, wait]             1m56s, 1m56s, 41.685ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 927.61ms, 822.038ms, 1.341s, 1.413s, 11.609s, 30.001s
+Bytes In      [total, mean]                     20742, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.55%
+Status Codes  [code:count]                      0:31  200:6914  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7004, 59.85, 59.57
+Duration      [total, attack, wait]             1m57s, 1m57s, 41.746ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 922.605ms, 819.19ms, 1.339s, 1.412s, 11.369s, 30.001s
+Bytes In      [total, mean]                     20919, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:31  200:6973  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7064, 59.86, 59.58
+Duration      [total, attack, wait]             1m58s, 1m58s, 52.717ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 917.663ms, 818.003ms, 1.338s, 1.411s, 11.125s, 30.001s
+Bytes In      [total, mean]                     21099, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:31  200:7033  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7124, 59.86, 59.58
+Duration      [total, attack, wait]             1m59s, 1m59s, 41.515ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 912.811ms, 816.857ms, 1.336s, 1.411s, 10.881s, 30.001s
+Bytes In      [total, mean]                     21279, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.56%
+Status Codes  [code:count]                      0:31  200:7093  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7184, 59.86, 59.58
+Duration      [total, attack, wait]             2m0s, 2m0s, 41.676ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 907.938ms, 815.513ms, 1.335s, 1.41s, 10.637s, 30.001s
+Bytes In      [total, mean]                     21459, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:31  200:7153  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7244, 59.87, 59.59
+Duration      [total, attack, wait]             2m1s, 2m1s, 48.328ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 903.341ms, 814.147ms, 1.334s, 1.409s, 10.393s, 30.001s
+Bytes In      [total, mean]                     21639, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.57%
+Status Codes  [code:count]                      0:31  200:7213  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7304, 59.86, 59.59
+Duration      [total, attack, wait]             2m2s, 2m2s, 41.782ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 898.619ms, 812.732ms, 1.333s, 1.408s, 10.148s, 30.001s
+Bytes In      [total, mean]                     21819, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:31  200:7273  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7364, 59.86, 59.59
+Duration      [total, attack, wait]             2m3s, 2m3s, 41.66ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 893.98ms, 811.413ms, 1.332s, 1.407s, 9.904s, 30.001s
+Bytes In      [total, mean]                     21999, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:31  200:7333  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7425, 59.86, 59.59
+Duration      [total, attack, wait]             2m4s, 2m4s, 41.722ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 889.494ms, 810.241ms, 1.331s, 1.407s, 9.656s, 30.001s
+Bytes In      [total, mean]                     22182, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.58%
+Status Codes  [code:count]                      0:31  200:7394  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7484, 59.86, 59.60
+Duration      [total, attack, wait]             2m5s, 2m5s, 41.131ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 885.113ms, 809.069ms, 1.33s, 1.406s, 9.416s, 30.001s
+Bytes In      [total, mean]                     22359, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:31  200:7453  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7544, 59.87, 59.60
+Duration      [total, attack, wait]             2m6s, 2m6s, 55.052ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 880.783ms, 807.877ms, 1.329s, 1.405s, 9.172s, 30.001s
+Bytes In      [total, mean]                     22539, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:31  200:7513  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7605, 59.87, 59.61
+Duration      [total, attack, wait]             2m7s, 2m7s, 41.586ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 876.418ms, 804.935ms, 1.328s, 1.404s, 8.923s, 30.001s
+Bytes In      [total, mean]                     22722, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.59%
+Status Codes  [code:count]                      0:31  200:7574  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7665, 59.88, 59.61
+Duration      [total, attack, wait]             2m8s, 2m8s, 41.691ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 872.128ms, 801.238ms, 1.327s, 1.403s, 8.679s, 30.001s
+Bytes In      [total, mean]                     22902, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:31  200:7634  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7725, 59.88, 59.62
+Duration      [total, attack, wait]             2m9s, 2m9s, 48.393ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 867.82ms, 797.414ms, 1.325s, 1.402s, 8.435s, 30.001s
+Bytes In      [total, mean]                     23082, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:31  200:7694  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7786, 59.88, 59.62
+Duration      [total, attack, wait]             2m10s, 2m10s, 41.004ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 863.519ms, 793.78ms, 1.325s, 1.4s, 8.187s, 30.001s
+Bytes In      [total, mean]                     23265, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:31  200:7755  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7845, 59.89, 59.62
+Duration      [total, attack, wait]             2m11s, 2m11s, 58.442ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 859.483ms, 784.503ms, 1.324s, 1.399s, 7.996s, 30.001s
+Bytes In      [total, mean]                     23442, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.60%
+Status Codes  [code:count]                      0:31  200:7814  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7906, 59.88, 59.63
+Duration      [total, attack, wait]             2m12s, 2m12s, 41.743ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 855.308ms, 774.561ms, 1.323s, 1.397s, 7.815s, 30.001s
+Bytes In      [total, mean]                     23625, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:31  200:7875  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         7965, 59.88, 59.63
+Duration      [total, attack, wait]             2m13s, 2m13s, 41.7ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 851.318ms, 764.62ms, 1.323s, 1.396s, 7.639s, 30.001s
+Bytes In      [total, mean]                     23802, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:31  200:7934  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8025, 59.89, 59.63
+Duration      [total, attack, wait]             2m14s, 2m14s, 51.789ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 847.448ms, 754.852ms, 1.322s, 1.395s, 7.461s, 30.001s
+Bytes In      [total, mean]                     23982, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.61%
+Status Codes  [code:count]                      0:31  200:7994  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8086, 59.89, 59.64
+Duration      [total, attack, wait]             2m15s, 2m15s, 41.408ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 843.352ms, 748.934ms, 1.321s, 1.395s, 7.279s, 30.001s
+Bytes In      [total, mean]                     24165, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:31  200:8055  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8146, 59.89, 59.64
+Duration      [total, attack, wait]             2m16s, 2m16s, 41.637ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 839.39ms, 744.064ms, 1.321s, 1.394s, 7.101s, 30.001s
+Bytes In      [total, mean]                     24345, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:31  200:8115  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8207, 59.89, 59.65
+Duration      [total, attack, wait]             2m17s, 2m17s, 41.691ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 835.378ms, 738.934ms, 1.32s, 1.394s, 6.92s, 30.001s
+Bytes In      [total, mean]                     24528, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:31  200:8176  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8266, 59.89, 59.65
+Duration      [total, attack, wait]             2m18s, 2m18s, 41.586ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 831.629ms, 734.795ms, 1.319s, 1.394s, 6.744s, 30.001s
+Bytes In      [total, mean]                     24705, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.62%
+Status Codes  [code:count]                      0:31  200:8235  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8326, 59.90, 59.65
+Duration      [total, attack, wait]             2m19s, 2m19s, 55.627ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 827.83ms, 733.491ms, 1.317s, 1.393s, 6.566s, 30.001s
+Bytes In      [total, mean]                     24885, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:31  200:8295  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8387, 59.90, 59.66
+Duration      [total, attack, wait]             2m20s, 2m20s, 41.696ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 824.005ms, 732.209ms, 1.316s, 1.393s, 6.384s, 30.001s
+Bytes In      [total, mean]                     25068, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:31  200:8356  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8447, 59.90, 59.66
+Duration      [total, attack, wait]             2m21s, 2m21s, 41.674ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 820.19ms, 730.905ms, 1.315s, 1.393s, 6.206s, 30.001s
+Bytes In      [total, mean]                     25248, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.63%
+Status Codes  [code:count]                      0:31  200:8416  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8507, 59.91, 59.67
+Duration      [total, attack, wait]             2m22s, 2m22s, 49.709ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 816.505ms, 729.364ms, 1.313s, 1.392s, 6.027s, 30.001s
+Bytes In      [total, mean]                     25428, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:31  200:8476  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8567, 59.90, 59.67
+Duration      [total, attack, wait]             2m23s, 2m23s, 41.453ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 812.803ms, 727.52ms, 1.312s, 1.392s, 5.849s, 30.001s
+Bytes In      [total, mean]                     25608, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:31  200:8536  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8628, 59.91, 59.68
+Duration      [total, attack, wait]             2m24s, 2m24s, 41.757ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 808.991ms, 725.577ms, 1.31s, 1.392s, 5.668s, 30.001s
+Bytes In      [total, mean]                     25791, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:31  200:8597  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8689, 59.91, 59.68
+Duration      [total, attack, wait]             2m25s, 2m25s, 41.672ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 805.263ms, 723.701ms, 1.31s, 1.391s, 5.486s, 30.001s
+Bytes In      [total, mean]                     25974, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.64%
+Status Codes  [code:count]                      0:31  200:8658  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8748, 59.91, 59.68
+Duration      [total, attack, wait]             2m26s, 2m26s, 41.752ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 801.683ms, 719.6ms, 1.309s, 1.391s, 5.311s, 30.001s
+Bytes In      [total, mean]                     26151, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:31  200:8717  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8808, 59.92, 59.69
+Duration      [total, attack, wait]             2m27s, 2m27s, 51.699ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 798.055ms, 710.699ms, 1.308s, 1.391s, 5.132s, 30.001s
+Bytes In      [total, mean]                     26331, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:31  200:8777  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8868, 59.91, 59.69
+Duration      [total, attack, wait]             2m28s, 2m28s, 41.66ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 794.482ms, 702.106ms, 1.308s, 1.39s, 4.954s, 30.001s
+Bytes In      [total, mean]                     26511, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:31  200:8837  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8928, 59.91, 59.69
+Duration      [total, attack, wait]             2m29s, 2m29s, 41.802ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 790.959ms, 693.512ms, 1.307s, 1.39s, 4.776s, 30.001s
+Bytes In      [total, mean]                     26691, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.65%
+Status Codes  [code:count]                      0:31  200:8897  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         8988, 59.92, 59.69
+Duration      [total, attack, wait]             2m30s, 2m30s, 48.207ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 787.537ms, 689.893ms, 1.306s, 1.39s, 4.597s, 30.001s
+Bytes In      [total, mean]                     26871, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:31  200:8957  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9048, 59.91, 59.69
+Duration      [total, attack, wait]             2m31s, 2m31s, 41.616ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 784.039ms, 687.862ms, 1.306s, 1.389s, 4.419s, 30.001s
+Bytes In      [total, mean]                     27051, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:31  200:9017  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9108, 59.92, 59.69
+Duration      [total, attack, wait]             2m32s, 2m32s, 57.455ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 780.716ms, 685.901ms, 1.305s, 1.389s, 4.24s, 30.001s
+Bytes In      [total, mean]                     27231, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:31  200:9077  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9169, 59.92, 59.70
+Duration      [total, attack, wait]             2m33s, 2m33s, 41.691ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 777.295ms, 683.906ms, 1.303s, 1.389s, 4.059s, 30.001s
+Bytes In      [total, mean]                     27414, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:31  200:9138  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9228, 59.92, 59.70
+Duration      [total, attack, wait]             2m34s, 2m34s, 41.688ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 774.075ms, 675.356ms, 1.302s, 1.389s, 3.883s, 30.001s
+Bytes In      [total, mean]                     27591, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.66%
+Status Codes  [code:count]                      0:31  200:9197  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9288, 59.92, 59.70
+Duration      [total, attack, wait]             2m35s, 2m35s, 50.724ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 770.815ms, 666.341ms, 1.3s, 1.388s, 3.705s, 30.001s
+Bytes In      [total, mean]                     27771, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:31  200:9257  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9348, 59.92, 59.70
+Duration      [total, attack, wait]             2m36s, 2m36s, 41.559ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 767.6ms, 657.636ms, 1.299s, 1.388s, 3.527s, 30.001s
+Bytes In      [total, mean]                     27951, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:31  200:9317  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9408, 59.92, 59.70
+Duration      [total, attack, wait]             2m37s, 2m37s, 41.631ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 764.427ms, 648.931ms, 1.297s, 1.388s, 3.368s, 30.001s
+Bytes In      [total, mean]                     28131, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:31  200:9377  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9469, 59.92, 59.71
+Duration      [total, attack, wait]             2m38s, 2m38s, 41.654ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 761.271ms, 644.23ms, 1.296s, 1.387s, 3.34s, 30.001s
+Bytes In      [total, mean]                     28314, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:31  200:9438  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9528, 59.92, 59.71
+Duration      [total, attack, wait]             2m39s, 2m39s, 41.697ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 758.195ms, 640.018ms, 1.294s, 1.387s, 3.313s, 30.001s
+Bytes In      [total, mean]                     28491, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.67%
+Status Codes  [code:count]                      0:31  200:9497  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9588, 59.93, 59.71
+Duration      [total, attack, wait]             2m40s, 2m40s, 52.681ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 755.193ms, 635.88ms, 1.293s, 1.386s, 3.285s, 30.001s
+Bytes In      [total, mean]                     28671, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.68%
+Status Codes  [code:count]                      0:31  200:9557  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9648, 59.92, 59.71
+Duration      [total, attack, wait]             2m41s, 2m41s, 41.739ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 752.176ms, 631.743ms, 1.291s, 1.385s, 3.257s, 30.001s
+Bytes In      [total, mean]                     28851, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.68%
+Status Codes  [code:count]                      0:31  200:9617  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9708, 59.92, 59.71
+Duration      [total, attack, wait]             2m42s, 2m42s, 41.698ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 749.194ms, 622.843ms, 1.29s, 1.385s, 3.229s, 30.001s
+Bytes In      [total, mean]                     29031, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.68%
+Status Codes  [code:count]                      0:31  200:9677  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9769, 59.92, 59.71
+Duration      [total, attack, wait]             2m43s, 2m43s, 41.763ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 746.169ms, 611.28ms, 1.288s, 1.384s, 3.201s, 30.001s
+Bytes In      [total, mean]                     29214, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.68%
+Status Codes  [code:count]                      0:31  200:9738  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9828, 59.92, 59.72
+Duration      [total, attack, wait]             2m44s, 2m44s, 41.573ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 743.337ms, 600.691ms, 1.287s, 1.383s, 3.174s, 30.001s
+Bytes In      [total, mean]                     29391, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.68%
+Status Codes  [code:count]                      0:31  200:9797  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9888, 59.93, 59.72
+Duration      [total, attack, wait]             2m45s, 2m45s, 53.656ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 740.516ms, 590.503ms, 1.285s, 1.383s, 3.146s, 30.001s
+Bytes In      [total, mean]                     29571, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.69%
+Status Codes  [code:count]                      0:31  200:9857  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         9948, 59.92, 59.72
+Duration      [total, attack, wait]             2m46s, 2m46s, 41.574ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 737.68ms, 580.548ms, 1.284s, 1.382s, 3.118s, 30.001s
+Bytes In      [total, mean]                     29751, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.69%
+Status Codes  [code:count]                      0:31  200:9917  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10008, 59.92, 59.72
+Duration      [total, attack, wait]             2m47s, 2m47s, 41.775ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 734.817ms, 575.491ms, 1.283s, 1.382s, 3.09s, 30.001s
+Bytes In      [total, mean]                     29931, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.69%
+Status Codes  [code:count]                      0:31  200:9977  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10069, 59.93, 59.73
+Duration      [total, attack, wait]             2m48s, 2m48s, 46.725ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 732.03ms, 573.924ms, 1.281s, 1.381s, 3.062s, 30.001s
+Bytes In      [total, mean]                     30114, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.69%
+Status Codes  [code:count]                      0:31  200:10038  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10129, 59.93, 59.73
+Duration      [total, attack, wait]             2m49s, 2m49s, 41.739ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 729.236ms, 572.356ms, 1.28s, 1.38s, 3.034s, 30.001s
+Bytes In      [total, mean]                     30294, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.69%
+Status Codes  [code:count]                      0:31  200:10098  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10189, 59.94, 59.73
+Duration      [total, attack, wait]             2m50s, 2m50s, 55.711ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 726.475ms, 571.181ms, 1.278s, 1.38s, 3.006s, 30.001s
+Bytes In      [total, mean]                     30474, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10158  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10249, 59.93, 59.73
+Duration      [total, attack, wait]             2m51s, 2m51s, 41.627ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 723.705ms, 570.179ms, 1.277s, 1.379s, 2.978s, 30.001s
+Bytes In      [total, mean]                     30654, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10218  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10309, 59.93, 59.74
+Duration      [total, attack, wait]             2m52s, 2m52s, 41.727ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 720.908ms, 569.144ms, 1.275s, 1.378s, 2.951s, 30.001s
+Bytes In      [total, mean]                     30834, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10278  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10369, 59.94, 59.74
+Duration      [total, attack, wait]             2m53s, 2m53s, 49.657ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 718.241ms, 568.352ms, 1.272s, 1.378s, 2.923s, 30.001s
+Bytes In      [total, mean]                     31014, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10338  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10430, 59.94, 59.74
+Duration      [total, attack, wait]             2m54s, 2m54s, 73.87ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 715.541ms, 567.637ms, 1.269s, 1.377s, 2.895s, 30.001s
+Bytes In      [total, mean]                     31197, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10399  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10489, 59.93, 59.74
+Duration      [total, attack, wait]             2m55s, 2m55s, 41.689ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 712.911ms, 566.948ms, 1.265s, 1.376s, 2.867s, 30.001s
+Bytes In      [total, mean]                     31374, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.70%
+Status Codes  [code:count]                      0:31  200:10458  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10550, 59.93, 59.74
+Duration      [total, attack, wait]             2m56s, 2m56s, 41.813ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 710.274ms, 566.208ms, 1.262s, 1.376s, 2.839s, 30.001s
+Bytes In      [total, mean]                     31557, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10519  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10609, 59.93, 59.74
+Duration      [total, attack, wait]             2m57s, 2m57s, 41.757ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 707.75ms, 565.165ms, 1.258s, 1.375s, 2.812s, 30.001s
+Bytes In      [total, mean]                     31734, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10578  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10669, 59.94, 59.75
+Duration      [total, attack, wait]             2m58s, 2m58s, 50.582ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 705.233ms, 564.103ms, 1.255s, 1.375s, 2.784s, 30.001s
+Bytes In      [total, mean]                     31914, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10638  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10729, 59.93, 59.75
+Duration      [total, attack, wait]             2m59s, 2m59s, 41.528ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 702.7ms, 563.041ms, 1.251s, 1.374s, 2.756s, 30.001s
+Bytes In      [total, mean]                     32094, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10698  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10788, 59.94, 59.74
+Duration      [total, attack, wait]             3m0s, 3m0s, 93.644ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 700.251ms, 562.169ms, 1.248s, 1.374s, 2.729s, 30.001s
+Bytes In      [total, mean]                     32271, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10757  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Requests      [total, rate, throughput]         10800, 60.01, 59.64
+Duration      [total, attack, wait]             3m1s, 3m0s, 569.703ms
+Latencies     [min, mean, 50, 90, 95, 99, max]  40.704ms, 700.145ms, 562.087ms, 1.247s, 1.374s, 2.723s, 30.001s
+Bytes In      [total, mean]                     32307, 2.99
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           99.71%
+Status Codes  [code:count]                      0:31  200:10769  
+Error Set:
+Get "http://10.106.9.236:8080/?burn=40": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
