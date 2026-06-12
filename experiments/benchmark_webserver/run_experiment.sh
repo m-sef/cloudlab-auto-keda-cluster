@@ -14,7 +14,7 @@ run_rate()
   local rate=$1
   local duration=$2
   local log_file=$3
-  echo "GET ${TARGET_URL}:8080/?burn=40" | \
+  echo "GET ${TARGET_URL}:8080/?burn=30" | \
       vegeta attack -rate="${rate}/s" -duration="${duration}" | \
       vegeta report -every=1s -output="${log_file}"
 }
