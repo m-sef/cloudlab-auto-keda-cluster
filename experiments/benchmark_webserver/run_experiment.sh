@@ -42,13 +42,13 @@ run_experiment()
     WATCHER_PID=$!
 
     # 3. Execute the Traffic Ramp
-    #echo "--- Baseline: 10 req/s (1 minute) ---"
+    echo "--- Baseline: 10 req/s (1 minute) ---"
     run_rate 10 "1m" "${FOLDER_NAME}/vegeta1.log"
 
-    #echo "--- Spike: 60 req/s (3 minutes) ---"
+    echo "--- Spike: 60 req/s (3 minutes) ---"
     run_rate 60 "3m" "${FOLDER_NAME}/vegeta2.log"
 
-    #echo "--- Cool down: 10 req/s (1 minute) ---"
+    echo "--- Cool down: 10 req/s (1 minute) ---"
     run_rate 10 "1m" "${FOLDER_NAME}/vegeta3.log"
 
     # 4. Ramp finished. Hold and watch for an extra 10 minutes
