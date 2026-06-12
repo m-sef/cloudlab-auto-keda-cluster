@@ -32,11 +32,11 @@ run_experiment()
     mkdir -p "${FOLDER_NAME}"
 
     # 2. Start HPA monitoring in the background and log to watch.log
-    echo "NAME   REFERENCE        TARGETS        MINPODS   MAXPODS   REPLICAS   AGE" > "${FOLDER_NAME}/watch.log"
+    echo "NAME   REFERENCE        TARGETS        MINPODS   MAXPODS   REPLICAS   AGE" > "${FOLDER_NAME}/replicas.log"
     
     # This loop runs silently in the background ($! grabs its process ID)
     while true; do
-        kubectl get hpa -n webserver | tail -n 1 >> "${FOLDER_NAME}/watch.log" 2>/dev/null
+        kubectl get hpa -n webserver | tail -n 1 >> "${FOLDER_NAME}/replicas.log" 2>/dev/null
         sleep 1
     done &
     WATCHER_PID=$!
