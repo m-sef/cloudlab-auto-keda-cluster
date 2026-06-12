@@ -8,17 +8,6 @@ TARGET_URL="http://$(kubectl get svc webserver-service -n webserver -o jsonpath=
 
 BENCHMARK_NAME=$1
 
-# Helper function to run Vegeta load
-run_rate()
-{
-  local rate=$1
-  local duration=$2
-  local log_file=$3
-  echo "GET ${TARGET_URL}:8080/?burn=30" | \
-      vegeta attack -rate="${rate}/s" -duration="${duration}" | \
-      vegeta report -every=1s -output="${log_file}"
-}
-
 run_experiment()
 {
     # --- MAIN LOOP FOR RERUNS ---
@@ -41,18 +30,14 @@ run_experiment()
     done &
     WATCHER_PID=$!
 
-    # 3. Execute the Traffic Ramp
-    echo "--- Baseline: 10 req/s (1 minute) ---"
-    run_rate 10 "1m" "${FOLDER_NAME}/vegeta.1.log"
+    BURN=40
+    
+    {
+        echo "GET ${TARGET_URL}:8080/?burn=${BURN}" | vegeta attack -rate=10/s -duration=1m
+        echo "GET ${TARGET_URL}:8080/?burn=${BURN}" | vegeta attack -rate=60/s -duration=3m
+        echo "GET ${TARGET_URL}:8080/?burn=${BURN}" | vegeta attack -rate=10/s -duration=1m
+    } | vegeta report -every=1s -output="${FOLDER_NAME}/vegeta.log"
 
-    echo "--- Spike: 60 req/s (3 minutes) ---"
-    run_rate 60 "3m" "${FOLDER_NAME}/vegeta.2.log"
-
-    echo "--- Cool down: 10 req/s (1 minute) ---"
-    run_rate 10 "1m" "${FOLDER_NAME}/vegeta.3.log"
-
-    # 4. Ramp finished. Hold and watch for an extra 10 minutes
-    echo "--- Traffic ramp finished. Monitoring HPA for an extra 5 minutes... ---"
     sleep 5m
 
     # 5. Stop the background HPA watcher
