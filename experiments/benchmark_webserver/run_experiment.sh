@@ -73,6 +73,10 @@ run_experiments()
     kubectl delete -f $YAML
 }
 
-run_experiments keda_prometheus yaml/webserver_keda_prometheus.yaml 2
+run_experiments fixed_replica_count yaml/webserver_fixed_replica_count.yaml 5
+run_experiments default_hpa yaml/webserver_default_hpa.yaml 5
+run_experiments tuned_hpa yaml/webserver_tuned_hpa.yaml 5
+run_experiments keda_cpu yaml/webserver_keda_cpu_scaler.yaml 5
+run_experiments keda_prometheus yaml/webserver_keda_prometheus.yaml 5
 
 exit 0
