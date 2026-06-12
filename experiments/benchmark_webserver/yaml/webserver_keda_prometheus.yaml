@@ -71,5 +71,5 @@ spec:
   - type: prometheus
     metadata:
       serverAddress: http://prometheus-service.prometheus.svc.cluster.local:80
-      threshold: '30'
+      threshold: '5'
       query: sum(rate(http_requests_total{job="webserver"}[1m]))
