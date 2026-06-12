@@ -8,12 +8,15 @@ A collection of scripts for configuring the Kubernetes cluster and its nodes.
 CONTAINER_ID=$1
 
 docker exec -it $CONTAINER_ID /bin/bash
+```
 
 ## access_pod.sh
-```
-```
-```
-```
+
+```bash
+NAMESPACE=$1
+POD_NAME=$2
+
+kubectl exec -n $NAMESPACE --stdin --tty $POD_NAME -- /bin/sh
 ```
 
 ## delete_metrics_server.sh

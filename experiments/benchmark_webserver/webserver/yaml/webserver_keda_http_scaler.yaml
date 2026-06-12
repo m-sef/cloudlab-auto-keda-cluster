@@ -1,6 +1,6 @@
 #==============================================================================
 # Author(s): Seth Moore (slmoore@hamilton.edu)
-# Brief: Express JS web server deployment utilizing manually tuned HPA for
+# Brief: Express JS web server deployment utilizing KEDA HTTP add on for
 #        horizontal scaling
 #==============================================================================
 apiVersion: v1
@@ -29,11 +29,6 @@ spec:
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
-        resources:
-          requests:
-            cpu: "200m"
-          limits:
-            cpu: "500m"
 ---
 apiVersion: v1
 kind: Service
@@ -48,27 +43,36 @@ spec:
     port: 8080
     targetPort: 8080
 ---
-apiVersion: autoscaling/v2
-kind: HorizontalPodAutoscaler
+apiVersion: http.keda.sh/v1beta1
+kind: InterceptorRoute
 metadata:
-  name: webserver-hpa
+  name: webserver-interceptorroute
+  namespace: webserver
+spec:
+  target:
+    service: webserver
+    port: 80
+  rules:
+    - hosts:
+        - sample-app.example.com
+  scalingMetric:
+    requestRate:
+      targetValue: 5
+      window: 1m
+      granularity: 1s
+---
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: webserver-scaledobject
   namespace: webserver
 spec:
   scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
     name: webserver-deployment
-  minReplicas: 2
-  maxReplicas: 10
-  metrics:
-  - type: Resource
-    resource:
-      name: cpu
-      target:
-        type: Utilization
-        averageUtilization: 50
-  behavior:
-    scaleUp:
-      stabilizationWindowSeconds: 0
-    scaleDown:
-      stabilizationWindowSeconds: 60
+  minReplicaCount: 2
+  maxReplicaCount: 10
+  triggers:
+    - type: external-push
+      metadata:
+        scalerAddress: keda-add-ons-http-external-scaler.keda:9090
+        interceptorRoute: webserver-interceptorroute

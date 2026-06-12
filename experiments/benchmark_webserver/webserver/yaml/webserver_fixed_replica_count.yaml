@@ -1,5 +1,5 @@
 #==============================================================================
-# Author(s): Seth Moore
+# Author(s): Seth Moore (slmoore@hamilton.edu)
 # Brief: Express JS web server deployment which always deploys 10 replicas.
 #==============================================================================
 apiVersion: v1

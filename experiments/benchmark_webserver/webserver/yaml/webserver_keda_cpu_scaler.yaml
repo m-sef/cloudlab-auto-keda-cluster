@@ -1,5 +1,5 @@
 #==============================================================================
-# Author(s): Seth Moore
+# Author(s): Seth Moore (slmoore@hamilton.edu)
 # Brief: Express JS web server deployment utilizing KEDA CPU Scaler for
 #        horizontal scaling
 #==============================================================================
