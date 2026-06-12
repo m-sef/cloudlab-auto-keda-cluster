@@ -50,7 +50,7 @@ data:
       - job_name: "webserver"
         scrape_interval: 5s
         static_configs:
-          - targets: ["webserver-service.webserver.svc.cluster.local:8080"]
+          - targets: ["webserver-serviceheadless.webserver.svc.cluster.local:8080"]
       
       - job_name: "nginx"
         static_configs:
