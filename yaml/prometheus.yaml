@@ -48,12 +48,10 @@ data:
               app: "prometheus"
 
       - job_name: "webserver"
-        scrape_interval: 5s
-        dns_sd_configs:
-          - names: 
-              - ["webserver-serviceheadless.webserver.svc.cluster.local"]
-            type: A
-            port: 8080
+        static_configs:
+          - targets: ["webserver-serviceheadless.webserver.svc.cluster.local:8080"]
+            labels:
+              app: "webserver"
 ---
 apiVersion: apps/v1
 kind: Deployment

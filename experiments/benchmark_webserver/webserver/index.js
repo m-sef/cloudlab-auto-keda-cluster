@@ -12,7 +12,7 @@ app.get('/metrics', (request, response) => {
     response.status(200).send(
         `# HELP http_requests_total Total number of HTTP requests\n` +
         `# TYPE http_requests_total counter\n` +
-        `http_requests_total{job="webserver",instance="${os.hostname()}"} ${http_requests_total} ${timestamp_ms}\n`
+        `http_requests_total ${http_requests_total}\n`
     );
 })
 

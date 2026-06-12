@@ -1,0 +1,145 @@
+#==============================================================================
+# Author(s): Seth Moore (slmoore@hamilton.edu)
+# Brief: Prometheus deployment
+#==============================================================================
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: prometheus
+---
+# --- RBAC: Prometheus needs API access to discover pods ---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: prometheus
+  namespace: prometheus
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: prometheus
+rules:
+- apiGroups: [""]
+  resources:
+  - nodes
+  - nodes/proxy
+  - services
+  - endpoints
+  - pods
+  verbs: ["get", "list", "watch"]
+- nonResourceURLs: ["/metrics"]
+  verbs: ["get"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: prometheus
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: prometheus
+subjects:
+- kind: ServiceAccount
+  name: prometheus
+  namespace: prometheus
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-server-conf
+  namespace: prometheus
+data:
+  prometheus.yml: |
+    global:
+      scrape_interval: 15s
+      evaluation_interval: 15s
+
+    alerting:
+      alertmanagers:
+        - static_configs:
+            - targets:
+
+    rule_files:
+
+    scrape_configs:
+      - job_name: "prometheus"
+        static_configs:
+          - targets: ["localhost:9090"]
+            labels:
+              app: "prometheus"
+
+      # --- KEY CHANGE: scrape each pod directly, not through the Service ---
+      - job_name: "webserver"
+        scrape_interval: 5s
+        kubernetes_sd_configs:
+          - role: pod
+            namespaces:
+              names:
+                - webserver
+        relabel_configs:
+          # Only target pods with app=webserver
+          - source_labels: [__meta_kubernetes_pod_label_app]
+            action: keep
+            regex: webserver
+          # Only scrape pods that are actually Running
+          - source_labels: [__meta_kubernetes_pod_phase]
+            action: keep
+            regex: Running
+          # Bypass the Service — talk directly to each pod's IP on port 8080
+          - source_labels: [__meta_kubernetes_pod_ip]
+            action: replace
+            target_label: __address__
+            regex: (.+)
+            replacement: $1:8080
+          # Use the pod name as the instance label for clarity
+          - source_labels: [__meta_kubernetes_pod_name]
+            action: replace
+            target_label: instance
+
+      - job_name: "nginx"
+        static_configs:
+          - targets: ["nginx-exporter-service.nginx.svc.cluster.local:9113"]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus-server
+  namespace: prometheus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus-server
+  template:
+    metadata:
+      labels:
+        app: prometheus-server
+    spec:
+      serviceAccountName: prometheus   # <-- wire up the ServiceAccount
+      containers:
+      - name: prometheus
+        image: prom/prometheus
+        ports:
+        - containerPort: 9090
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/prometheus
+      volumes:
+      - name: config-volume
+        configMap:
+          name: prometheus-server-conf
+          defaultMode: 420
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus-service
+  namespace: prometheus
+spec:
+  selector:
+    app: prometheus-server
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 9090
+  type: LoadBalancer
